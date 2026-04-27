@@ -1,0 +1,2610 @@
+[
+  {
+    "paperId": "p001",
+    "title": "Attention Is All You Need",
+    "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.",
+    "year": 2017,
+    "authors": [
+      {
+        "name": "Ashish Vaswani"
+      },
+      {
+        "name": "Noam Shazeer"
+      },
+      {
+        "name": "Niki Parmar"
+      },
+      {
+        "name": "Jakob Uszkoreit"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 95000,
+    "references": [
+      {
+        "paperId": "p010"
+      },
+      {
+        "paperId": "p011"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1706.03762"
+  },
+  {
+    "paperId": "p002",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "abstract": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.",
+    "year": 2019,
+    "authors": [
+      {
+        "name": "Jacob Devlin"
+      },
+      {
+        "name": "Ming-Wei Chang"
+      },
+      {
+        "name": "Kenton Lee"
+      }
+    ],
+    "venue": "NAACL",
+    "citationCount": 72000,
+    "references": [
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p010"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1810.04805"
+  },
+  {
+    "paperId": "p003",
+    "title": "Language Models are Few-Shot Learners",
+    "abstract": "Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. We show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches.",
+    "year": 2020,
+    "authors": [
+      {
+        "name": "Tom Brown"
+      },
+      {
+        "name": "Benjamin Mann"
+      },
+      {
+        "name": "Nick Ryder"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 35000,
+    "references": [
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p002"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2005.14165"
+  },
+  {
+    "paperId": "p004",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "abstract": "We present high quality image synthesis results using diffusion probabilistic models, a class of latent variable models inspired by considerations from nonequilibrium thermodynamics. Our best results are obtained by training on a weighted variational bound designed according to a novel connection between diffusion probabilistic models and denoising score matching.",
+    "year": 2020,
+    "authors": [
+      {
+        "name": "Jonathan Ho"
+      },
+      {
+        "name": "Ajay Jain"
+      },
+      {
+        "name": "Pieter Abbeel"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 12000,
+    "references": [
+      {
+        "paperId": "p012"
+      },
+      {
+        "paperId": "p013"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2006.11239"
+  },
+  {
+    "paperId": "p005",
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "abstract": "By decomposing the image formation process into a sequential application of denoising autoencoders, diffusion models achieve state-of-the-art synthesis results on image data and beyond. We apply diffusion models in the latent space of powerful pretrained autoencoders, achieving a new state of the art for image inpainting.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Robin Rombach"
+      },
+      {
+        "name": "Andreas Blattmann"
+      },
+      {
+        "name": "Dominik Lorenz"
+      }
+    ],
+    "venue": "CVPR",
+    "citationCount": 8000,
+    "references": [
+      {
+        "paperId": "p004"
+      },
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p012"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2112.10752"
+  },
+  {
+    "paperId": "p006",
+    "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+    "abstract": "We present a scalable approach for semi-supervised learning on graph-structured data that is based on an efficient variant of convolutional neural networks which operate directly on graphs. We motivate the choice of our convolutional architecture via a localized first-order approximation of spectral graph convolutions.",
+    "year": 2017,
+    "authors": [
+      {
+        "name": "Thomas Kipf"
+      },
+      {
+        "name": "Max Welling"
+      }
+    ],
+    "venue": "ICLR",
+    "citationCount": 22000,
+    "references": [
+      {
+        "paperId": "p014"
+      },
+      {
+        "paperId": "p015"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1609.02907"
+  },
+  {
+    "paperId": "p007",
+    "title": "Graph Attention Networks",
+    "abstract": "We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations.",
+    "year": 2018,
+    "authors": [
+      {
+        "name": "Petar Velickovic"
+      },
+      {
+        "name": "Guillem Cucurull"
+      },
+      {
+        "name": "Arantxa Casanova"
+      }
+    ],
+    "venue": "ICLR",
+    "citationCount": 15000,
+    "references": [
+      {
+        "paperId": "p006"
+      },
+      {
+        "paperId": "p001"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1710.10903"
+  },
+  {
+    "paperId": "p008",
+    "title": "Generative Adversarial Networks",
+    "abstract": "We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G.",
+    "year": 2014,
+    "authors": [
+      {
+        "name": "Ian Goodfellow"
+      },
+      {
+        "name": "Jean Pouget-Abadie"
+      },
+      {
+        "name": "Mehdi Mirza"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 55000,
+    "references": [
+      {
+        "paperId": "p016"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1406.2661"
+  },
+  {
+    "paperId": "p009",
+    "title": "Deep Residual Learning for Image Recognition",
+    "abstract": "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.",
+    "year": 2016,
+    "authors": [
+      {
+        "name": "Kaiming He"
+      },
+      {
+        "name": "Xiangyu Zhang"
+      },
+      {
+        "name": "Shaoqing Ren"
+      },
+      {
+        "name": "Jian Sun"
+      }
+    ],
+    "venue": "CVPR",
+    "citationCount": 160000,
+    "references": [
+      {
+        "paperId": "p016"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1512.03385"
+  },
+  {
+    "paperId": "p010",
+    "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+    "abstract": "Neural machine translation is a recently proposed approach to machine translation. We conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder-decoder architecture, and propose to extend this by allowing a model to automatically search for parts of a source sentence that are relevant to predicting a target word.",
+    "year": 2015,
+    "authors": [
+      {
+        "name": "Dzmitry Bahdanau"
+      },
+      {
+        "name": "Kyunghyun Cho"
+      },
+      {
+        "name": "Yoshua Bengio"
+      }
+    ],
+    "venue": "ICLR",
+    "citationCount": 32000,
+    "references": [
+      {
+        "paperId": "p011"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1409.0473"
+  },
+  {
+    "paperId": "p011",
+    "title": "Sequence to Sequence Learning with Neural Networks",
+    "abstract": "Deep Neural Networks are powerful models that have achieved excellent performance on difficult learning tasks. We show that a straightforward application of the Long Short-Term Memory architecture can solve general sequence to sequence problems. Our method uses a multilayered LSTM to map the input sequence to a vector of a fixed dimensionality.",
+    "year": 2014,
+    "authors": [
+      {
+        "name": "Ilya Sutskever"
+      },
+      {
+        "name": "Oriol Vinyals"
+      },
+      {
+        "name": "Quoc V. Le"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 23000,
+    "references": [
+      {
+        "paperId": "p016"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1409.3215"
+  },
+  {
+    "paperId": "p012",
+    "title": "Auto-Encoding Variational Bayes",
+    "abstract": "How can we perform efficient inference and learning in directed probabilistic models, in the presence of continuous latent variables with intractable posterior distributions? We introduce a stochastic variational inference and learning algorithm that scales to large datasets and works under some mild conditions with intractable cases.",
+    "year": 2014,
+    "authors": [
+      {
+        "name": "Diederik P. Kingma"
+      },
+      {
+        "name": "Max Welling"
+      }
+    ],
+    "venue": "ICLR",
+    "citationCount": 27000,
+    "references": [],
+    "url": "https://arxiv.org/abs/1312.6114"
+  },
+  {
+    "paperId": "p013",
+    "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+    "abstract": "A central problem in machine learning involves modeling complex data-sets using highly flexible families of probability distributions in which learning, sampling, inference, and evaluation are still analytically or computationally tractable. We define a diffusion process that slowly transforms data distribution into a simple, analytically tractable distribution.",
+    "year": 2015,
+    "authors": [
+      {
+        "name": "Jascha Sohl-Dickstein"
+      },
+      {
+        "name": "Eric Weiss"
+      },
+      {
+        "name": "Niru Maheswaranathan"
+      }
+    ],
+    "venue": "ICML",
+    "citationCount": 4500,
+    "references": [
+      {
+        "paperId": "p012"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1503.03585"
+  },
+  {
+    "paperId": "p014",
+    "title": "Spectral Networks and Locally Connected Networks on Graphs",
+    "abstract": "Convolutional Neural Networks are extremely efficient architectures in image and audio recognition tasks, thanks to their ability to exploit the local translational invariance of signal classes over their domain. In this paper we consider possible generalizations of CNNs to signals defined on more general domains without the action of a translation group.",
+    "year": 2014,
+    "authors": [
+      {
+        "name": "Joan Bruna"
+      },
+      {
+        "name": "Wojciech Zaremba"
+      },
+      {
+        "name": "Arthur Szlam"
+      },
+      {
+        "name": "Yann LeCun"
+      }
+    ],
+    "venue": "ICLR",
+    "citationCount": 3500,
+    "references": [
+      {
+        "paperId": "p016"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1312.6203"
+  },
+  {
+    "paperId": "p015",
+    "title": "Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering",
+    "abstract": "In this work, we are interested in generalizing convolutional neural networks from low-dimensional regular grids, where image, video and speech are represented, to high-dimensional irregular domains, such as social networks, brain connectomes, or words embeddings, represented by graphs.",
+    "year": 2016,
+    "authors": [
+      {
+        "name": "Michael Defferrard"
+      },
+      {
+        "name": "Xavier Bresson"
+      },
+      {
+        "name": "Pierre Vandergheynst"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 6500,
+    "references": [
+      {
+        "paperId": "p014"
+      },
+      {
+        "paperId": "p006"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1606.09375"
+  },
+  {
+    "paperId": "p016",
+    "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "abstract": "We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates that are considerably better than the previous state-of-the-art.",
+    "year": 2012,
+    "authors": [
+      {
+        "name": "Alex Krizhevsky"
+      },
+      {
+        "name": "Ilya Sutskever"
+      },
+      {
+        "name": "Geoffrey E. Hinton"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 120000,
+    "references": [],
+    "url": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks"
+  },
+  {
+    "paperId": "p017",
+    "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+    "abstract": "While the Transformer architecture has become the de-facto standard for natural language processing tasks, its applications to computer vision remain limited. We show that a pure transformer applied directly to sequences of image patches can perform very well on image classification tasks.",
+    "year": 2021,
+    "authors": [
+      {
+        "name": "Alexey Dosovitskiy"
+      },
+      {
+        "name": "Lucas Beyer"
+      },
+      {
+        "name": "Alexander Kolesnikov"
+      }
+    ],
+    "venue": "ICLR",
+    "citationCount": 28000,
+    "references": [
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p009"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2010.11929"
+  },
+  {
+    "paperId": "p018",
+    "title": "Masked Autoencoders Are Scalable Vision Learners",
+    "abstract": "This paper shows that masked autoencoders are scalable self-supervised learners for computer vision. Our approach masks random patches of the input image and reconstructs the missing pixels. We develop an asymmetric encoder-decoder architecture.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Kaiming He"
+      },
+      {
+        "name": "Xinlei Chen"
+      },
+      {
+        "name": "Saining Xie"
+      }
+    ],
+    "venue": "CVPR",
+    "citationCount": 6000,
+    "references": [
+      {
+        "paperId": "p017"
+      },
+      {
+        "paperId": "p002"
+      },
+      {
+        "paperId": "p009"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2111.06377"
+  },
+  {
+    "paperId": "p019",
+    "title": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+    "abstract": "Natural language processing has been revolutionized by the development of large language models. We present an analysis of Transformer-based language model performance across a wide range of model scales. We train a series of models ranging from 44 million to 280 billion parameters.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Jack W. Rae"
+      },
+      {
+        "name": "Sebastian Borgeaud"
+      },
+      {
+        "name": "Trevor Cai"
+      }
+    ],
+    "venue": "arXiv",
+    "citationCount": 3200,
+    "references": [
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p003"
+      },
+      {
+        "paperId": "p002"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2112.11446"
+  },
+  {
+    "paperId": "p020",
+    "title": "Training Language Models to Follow Instructions with Human Feedback",
+    "abstract": "Making language models bigger does not inherently make them better at following a user's intent. We show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set of labeler-written prompts and prompts submitted through an API.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Long Ouyang"
+      },
+      {
+        "name": "Jeff Wu"
+      },
+      {
+        "name": "Xu Jiang"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 9500,
+    "references": [
+      {
+        "paperId": "p003"
+      },
+      {
+        "paperId": "p002"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2203.02155"
+  },
+  {
+    "paperId": "p021",
+    "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+    "abstract": "Creating noise from data is easy; creating data from noise is generative modeling. We present a stochastic differential equation that smoothly transforms a complex data distribution to a known prior distribution by slowly injecting noise, and a corresponding reverse-time SDE that transforms the prior distribution back into the data distribution.",
+    "year": 2021,
+    "authors": [
+      {
+        "name": "Yang Song"
+      },
+      {
+        "name": "Jascha Sohl-Dickstein"
+      },
+      {
+        "name": "Diederik P. Kingma"
+      }
+    ],
+    "venue": "ICLR",
+    "citationCount": 5500,
+    "references": [
+      {
+        "paperId": "p004"
+      },
+      {
+        "paperId": "p013"
+      },
+      {
+        "paperId": "p012"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2011.13456"
+  },
+  {
+    "paperId": "p022",
+    "title": "Denoising Diffusion Implicit Models",
+    "abstract": "Denoising diffusion probabilistic models have achieved high quality image generation without adversarial training, yet they require simulating a Markov chain for many steps to produce a sample. We present denoising diffusion implicit models, a more efficient class of iterative implicit probabilistic models with the same training procedure.",
+    "year": 2021,
+    "authors": [
+      {
+        "name": "Jiaming Song"
+      },
+      {
+        "name": "Chenlin Meng"
+      },
+      {
+        "name": "Stefano Ermon"
+      }
+    ],
+    "venue": "ICLR",
+    "citationCount": 4800,
+    "references": [
+      {
+        "paperId": "p004"
+      },
+      {
+        "paperId": "p008"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2010.02502"
+  },
+  {
+    "paperId": "p023",
+    "title": "How Powerful are Graph Neural Networks?",
+    "abstract": "Graph Neural Networks are an effective framework for representation learning on graphs. GNNs follow a neighborhood aggregation scheme, where the representation vector of a node is computed by recursively aggregating and transforming representation vectors of its neighboring nodes.",
+    "year": 2019,
+    "authors": [
+      {
+        "name": "Keyulu Xu"
+      },
+      {
+        "name": "Weihua Hu"
+      },
+      {
+        "name": "Jure Leskovec"
+      },
+      {
+        "name": "Stefanie Jegelka"
+      }
+    ],
+    "venue": "ICLR",
+    "citationCount": 7500,
+    "references": [
+      {
+        "paperId": "p006"
+      },
+      {
+        "paperId": "p007"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1810.00826"
+  },
+  {
+    "paperId": "p024",
+    "title": "Inductive Representation Learning on Large Graphs",
+    "abstract": "Low-dimensional embeddings of nodes in large graphs have proved extremely useful in a variety of prediction tasks. We present GraphSAGE, a general inductive framework that leverages node feature information to efficiently generate node embeddings for previously unseen data.",
+    "year": 2017,
+    "authors": [
+      {
+        "name": "Will Hamilton"
+      },
+      {
+        "name": "Zhitao Ying"
+      },
+      {
+        "name": "Jure Leskovec"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 11000,
+    "references": [
+      {
+        "paperId": "p006"
+      },
+      {
+        "paperId": "p014"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1706.02216"
+  },
+  {
+    "paperId": "p025",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "abstract": "Large pre-trained language models have been shown to store factual knowledge in their parameters. However, their ability to access and precisely manipulate knowledge is still limited. We explore a general-purpose fine-tuning recipe for retrieval-augmented generation models combining pre-trained parametric and non-parametric memory.",
+    "year": 2020,
+    "authors": [
+      {
+        "name": "Patrick Lewis"
+      },
+      {
+        "name": "Ethan Perez"
+      },
+      {
+        "name": "Aleksandra Piktus"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 4200,
+    "references": [
+      {
+        "paperId": "p002"
+      },
+      {
+        "paperId": "p003"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2005.11401"
+  },
+  {
+    "paperId": "p026",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "abstract": "An important paradigm of natural language processing consists of large-scale pre-training on general domain data and adaptation to particular tasks or domains. We propose Low-Rank Adaptation, or LoRA, which freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Edward J. Hu"
+      },
+      {
+        "name": "Yelong Shen"
+      },
+      {
+        "name": "Phillip Wallis"
+      }
+    ],
+    "venue": "ICLR",
+    "citationCount": 7800,
+    "references": [
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p003"
+      },
+      {
+        "paperId": "p002"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2106.09685"
+  },
+  {
+    "paperId": "p027",
+    "title": "Classifier-Free Diffusion Guidance",
+    "abstract": "Classifier guidance is a recently introduced method for trading off mode coverage and sample fidelity in conditional diffusion models post training. We show that guidance can be performed by a pure generative model without such a classifier, enabling classifier-free guidance.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Jonathan Ho"
+      },
+      {
+        "name": "Tim Salimans"
+      }
+    ],
+    "venue": "NeurIPS Workshop",
+    "citationCount": 3800,
+    "references": [
+      {
+        "paperId": "p004"
+      },
+      {
+        "paperId": "p022"
+      },
+      {
+        "paperId": "p021"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2207.12598"
+  },
+  {
+    "paperId": "p028",
+    "title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+    "abstract": "We present Imagen, a text-to-image diffusion model with an unprecedented degree of photorealism and a deep level of language understanding. Imagen builds on the power of large transformer language models in understanding text and hinges on the strength of diffusion models in high-fidelity image generation.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Chitwan Saharia"
+      },
+      {
+        "name": "William Chan"
+      },
+      {
+        "name": "Saurabh Saxena"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 5200,
+    "references": [
+      {
+        "paperId": "p004"
+      },
+      {
+        "paperId": "p005"
+      },
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p003"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2205.11487"
+  },
+  {
+    "paperId": "p029",
+    "title": "Message Passing Neural Networks",
+    "abstract": "Supervised learning on molecules has incredible potential to be useful in chemistry, drug discovery, and materials science. We reformulate existing models in terms of message passing neural networks and explore additional novel variations within this framework.",
+    "year": 2017,
+    "authors": [
+      {
+        "name": "Justin Gilmer"
+      },
+      {
+        "name": "Samuel S. Schoenholz"
+      },
+      {
+        "name": "Patrick F. Riley"
+      }
+    ],
+    "venue": "ICML",
+    "citationCount": 6800,
+    "references": [
+      {
+        "paperId": "p006"
+      },
+      {
+        "paperId": "p014"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1704.01212"
+  },
+  {
+    "paperId": "p030",
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "abstract": "State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories. We demonstrate that the simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn SOTA image representations from scratch.",
+    "year": 2021,
+    "authors": [
+      {
+        "name": "Alec Radford"
+      },
+      {
+        "name": "Jong Wook Kim"
+      },
+      {
+        "name": "Chris Hallacy"
+      }
+    ],
+    "venue": "ICML",
+    "citationCount": 18000,
+    "references": [
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p009"
+      },
+      {
+        "paperId": "p017"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2103.00020"
+  },
+  {
+    "paperId": "p031",
+    "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+    "abstract": "Contrastive models like CLIP have been shown to learn robust representations of images that capture both semantics and style. To leverage these representations for image generation, we propose a two-stage model: a prior that generates a CLIP image embedding given a text caption, and a decoder that generates an image conditioned on the image embedding.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Aditya Ramesh"
+      },
+      {
+        "name": "Prafulla Dhariwal"
+      },
+      {
+        "name": "Alex Nichol"
+      }
+    ],
+    "venue": "arXiv",
+    "citationCount": 4100,
+    "references": [
+      {
+        "paperId": "p030"
+      },
+      {
+        "paperId": "p004"
+      },
+      {
+        "paperId": "p008"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2204.06125"
+  },
+  {
+    "paperId": "p032",
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "abstract": "We explore how generating a chain of thought, a series of intermediate reasoning steps, significantly improves the ability of large language models to perform complex reasoning. We show that such reasoning abilities emerge naturally in sufficiently large language models.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Jason Wei"
+      },
+      {
+        "name": "Xuezhi Wang"
+      },
+      {
+        "name": "Dale Schuurmans"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 6500,
+    "references": [
+      {
+        "paperId": "p003"
+      },
+      {
+        "paperId": "p020"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2201.11903"
+  },
+  {
+    "paperId": "p033",
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "abstract": "As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Yuntao Bai"
+      },
+      {
+        "name": "Saurav Kadavath"
+      },
+      {
+        "name": "Sandipan Kundu"
+      }
+    ],
+    "venue": "arXiv",
+    "citationCount": 2800,
+    "references": [
+      {
+        "paperId": "p020"
+      },
+      {
+        "paperId": "p003"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2212.08073"
+  },
+  {
+    "paperId": "p034",
+    "title": "Graph Transformer Networks",
+    "abstract": "Graph neural networks have been widely used for representation learning on graph structured data. We propose Graph Transformer Networks that are capable of generating new graph structures, which involve identifying useful connections between unconnected nodes on the original graph, while learning effective node representation on the new graphs.",
+    "year": 2019,
+    "authors": [
+      {
+        "name": "Seongjun Yun"
+      },
+      {
+        "name": "Minbyul Jeong"
+      },
+      {
+        "name": "Raehyun Kim"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 2400,
+    "references": [
+      {
+        "paperId": "p006"
+      },
+      {
+        "paperId": "p007"
+      },
+      {
+        "paperId": "p001"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1911.06455"
+  },
+  {
+    "paperId": "p035",
+    "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+    "abstract": "Deep neural nets with a large number of parameters are very powerful machine learning systems. However, overfitting is a serious problem in such networks. We address this problem by randomly dropping units from the neural network during training. This prevents units from co-adapting too much.",
+    "year": 2014,
+    "authors": [
+      {
+        "name": "Nitish Srivastava"
+      },
+      {
+        "name": "Geoffrey Hinton"
+      },
+      {
+        "name": "Alex Krizhevsky"
+      }
+    ],
+    "venue": "JMLR",
+    "citationCount": 40000,
+    "references": [
+      {
+        "paperId": "p016"
+      }
+    ],
+    "url": "https://jmlr.org/papers/v15/srivastava14a.html"
+  },
+  {
+    "paperId": "p036",
+    "title": "Adam: A Method for Stochastic Optimization",
+    "abstract": "We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions, based on adaptive estimates of lower-order moments. The method is straightforward to implement, is computationally efficient, has little memory requirements, and is well suited for problems that are large in terms of data and parameters.",
+    "year": 2015,
+    "authors": [
+      {
+        "name": "Diederik P. Kingma"
+      },
+      {
+        "name": "Jimmy Ba"
+      }
+    ],
+    "venue": "ICLR",
+    "citationCount": 150000,
+    "references": [],
+    "url": "https://arxiv.org/abs/1412.6980"
+  },
+  {
+    "paperId": "p037",
+    "title": "Batch Normalization: Accelerating Deep Network Training",
+    "abstract": "Training Deep Neural Networks is complicated by the fact that the distribution of each layer's inputs changes during training as the parameters of the previous layers change. We refer to this phenomenon as internal covariate shift, and address the problem by normalizing layer inputs.",
+    "year": 2015,
+    "authors": [
+      {
+        "name": "Sergey Ioffe"
+      },
+      {
+        "name": "Christian Szegedy"
+      }
+    ],
+    "venue": "ICML",
+    "citationCount": 45000,
+    "references": [
+      {
+        "paperId": "p016"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1502.03167"
+  },
+  {
+    "paperId": "p038",
+    "title": "A Comprehensive Survey on Graph Neural Networks",
+    "abstract": "Deep learning has revolutionized many machine learning tasks in recent years, ranging from image classification and video processing to speech recognition and natural language understanding. The data in these tasks are typically represented in the Euclidean space. This paper provides a comprehensive overview of graph neural networks in data mining and machine learning fields.",
+    "year": 2021,
+    "authors": [
+      {
+        "name": "Zonghan Wu"
+      },
+      {
+        "name": "Shirui Pan"
+      },
+      {
+        "name": "Fengwen Chen"
+      }
+    ],
+    "venue": "IEEE TNNLS",
+    "citationCount": 9200,
+    "references": [
+      {
+        "paperId": "p006"
+      },
+      {
+        "paperId": "p007"
+      },
+      {
+        "paperId": "p023"
+      },
+      {
+        "paperId": "p024"
+      },
+      {
+        "paperId": "p029"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1901.00596"
+  },
+  {
+    "paperId": "p039",
+    "title": "Diffusion Models Beat GANs on Image Synthesis",
+    "abstract": "We show that diffusion models can achieve image sample quality superior to the current state-of-the-art generative models. We achieve this by finding a better architecture through a series of ablations, and improving classifier guidance which allows trading off diversity for fidelity.",
+    "year": 2021,
+    "authors": [
+      {
+        "name": "Prafulla Dhariwal"
+      },
+      {
+        "name": "Alex Nichol"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 5800,
+    "references": [
+      {
+        "paperId": "p004"
+      },
+      {
+        "paperId": "p008"
+      },
+      {
+        "paperId": "p021"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2105.05233"
+  },
+  {
+    "paperId": "p040",
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+    "abstract": "In this work, we develop and release Llama 2, a collection of pretrained and fine-tuned large language models ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases.",
+    "year": 2023,
+    "authors": [
+      {
+        "name": "Hugo Touvron"
+      },
+      {
+        "name": "Louis Martin"
+      },
+      {
+        "name": "Kevin Stone"
+      }
+    ],
+    "venue": "arXiv",
+    "citationCount": 8500,
+    "references": [
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p003"
+      },
+      {
+        "paperId": "p020"
+      },
+      {
+        "paperId": "p033"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2307.09288"
+  },
+  {
+    "paperId": "p041",
+    "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+    "abstract": "Transfer learning, where a model is first pre-trained on a data-rich task before being fine-tuned on a downstream task, has emerged as a powerful technique in natural language processing. We introduce a unified framework that converts all text-based language problems into a text-to-text format.",
+    "year": 2020,
+    "authors": [
+      {
+        "name": "Colin Raffel"
+      },
+      {
+        "name": "Noam Shazeer"
+      },
+      {
+        "name": "Adam Roberts"
+      }
+    ],
+    "venue": "JMLR",
+    "citationCount": 16000,
+    "references": [
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p002"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1910.10683"
+  },
+  {
+    "paperId": "p042",
+    "title": "Improving Language Understanding by Generative Pre-Training",
+    "abstract": "Natural language understanding comprises a wide range of diverse tasks such as textual entailment, question answering, semantic similarity assessment, and document classification. We demonstrate that large gains on these tasks can be realized by generative pre-training of a language model on a diverse corpus of unlabeled text.",
+    "year": 2018,
+    "authors": [
+      {
+        "name": "Alec Radford"
+      },
+      {
+        "name": "Karthik Narasimhan"
+      },
+      {
+        "name": "Tim Salimans"
+      }
+    ],
+    "venue": "OpenAI",
+    "citationCount": 9800,
+    "references": [
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p010"
+      }
+    ],
+    "url": "https://openai.com/research/language-unsupervised"
+  },
+  {
+    "paperId": "p043",
+    "title": "Emerging Properties in Self-Supervised Vision Transformers",
+    "abstract": "In this paper, we question if self-supervised learning provides new properties to Vision Transformer that stand out compared to convolutional networks and supervised ViT networks. We implement DINO, a form of self-distillation with no labels and show interesting properties of self-supervised ViT features.",
+    "year": 2021,
+    "authors": [
+      {
+        "name": "Mathilde Caron"
+      },
+      {
+        "name": "Hugo Touvron"
+      },
+      {
+        "name": "Ishan Misra"
+      }
+    ],
+    "venue": "ICCV",
+    "citationCount": 5100,
+    "references": [
+      {
+        "paperId": "p017"
+      },
+      {
+        "paperId": "p009"
+      },
+      {
+        "paperId": "p030"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2104.14294"
+  },
+  {
+    "paperId": "p044",
+    "title": "Segment Anything",
+    "abstract": "We introduce the Segment Anything project: a new task, model, and dataset for image segmentation. Using our efficient model in a data collection loop, we built the largest ever segmentation dataset with over 1 billion masks on 11 million licensed and privacy respecting images.",
+    "year": 2023,
+    "authors": [
+      {
+        "name": "Alexander Kirillov"
+      },
+      {
+        "name": "Eric Mintun"
+      },
+      {
+        "name": "Nikhila Ravi"
+      }
+    ],
+    "venue": "ICCV",
+    "citationCount": 6200,
+    "references": [
+      {
+        "paperId": "p017"
+      },
+      {
+        "paperId": "p009"
+      },
+      {
+        "paperId": "p030"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2304.02643"
+  },
+  {
+    "paperId": "p045",
+    "title": "GPT-4 Technical Report",
+    "abstract": "We report the development of GPT-4, a large-scale multimodal model which can accept image and text inputs and produce text outputs. GPT-4 exhibits human-level performance on various professional and academic benchmarks.",
+    "year": 2023,
+    "authors": [
+      {
+        "name": "OpenAI"
+      }
+    ],
+    "venue": "arXiv",
+    "citationCount": 7100,
+    "references": [
+      {
+        "paperId": "p003"
+      },
+      {
+        "paperId": "p020"
+      },
+      {
+        "paperId": "p032"
+      },
+      {
+        "paperId": "p030"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2303.08774"
+  },
+  {
+    "paperId": "p046",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "abstract": "Language models exhibit remarkable abilities to solve new tasks from just a few examples or textual instructions. We show that LMs can teach themselves to use external tools via simple APIs. We introduce Toolformer, a model trained to decide which APIs to call, when to call them, what arguments to pass.",
+    "year": 2023,
+    "authors": [
+      {
+        "name": "Timo Schick"
+      },
+      {
+        "name": "Jane Dwivedi-Yu"
+      },
+      {
+        "name": "Roberto Dessi"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 2500,
+    "references": [
+      {
+        "paperId": "p003"
+      },
+      {
+        "paperId": "p020"
+      },
+      {
+        "paperId": "p025"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2302.04761"
+  },
+  {
+    "paperId": "p047",
+    "title": "DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation",
+    "abstract": "Large text-to-image models achieved a remarkable leap in the evolution of AI. Given a few images of a subject, we fine-tune a pretrained text-to-image model so that it learns to bind a unique identifier with that specific subject.",
+    "year": 2023,
+    "authors": [
+      {
+        "name": "Nataniel Ruiz"
+      },
+      {
+        "name": "Yuanzhen Li"
+      },
+      {
+        "name": "Varun Jampani"
+      }
+    ],
+    "venue": "CVPR",
+    "citationCount": 3400,
+    "references": [
+      {
+        "paperId": "p005"
+      },
+      {
+        "paperId": "p028"
+      },
+      {
+        "paperId": "p030"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2208.12242"
+  },
+  {
+    "paperId": "p048",
+    "title": "Graph Neural Networks: A Review of Methods and Applications",
+    "abstract": "Lots of learning tasks require dealing with graph data which contains rich relation information among elements. Graph neural networks, which generalize and extend existing neural network methods to handle graph data, are receiving more and more attention as a modeling framework for non-Euclidean data.",
+    "year": 2020,
+    "authors": [
+      {
+        "name": "Jie Zhou"
+      },
+      {
+        "name": "Ganqu Cui"
+      },
+      {
+        "name": "Shengding Hu"
+      }
+    ],
+    "venue": "AI Open",
+    "citationCount": 7200,
+    "references": [
+      {
+        "paperId": "p006"
+      },
+      {
+        "paperId": "p007"
+      },
+      {
+        "paperId": "p024"
+      },
+      {
+        "paperId": "p029"
+      }
+    ],
+    "url": "https://arxiv.org/abs/1812.08434"
+  },
+  {
+    "paperId": "p049",
+    "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+    "abstract": "Transformers are slow and memory-hungry on long sequences, since the time and memory complexity of self-attention are quadratic in sequence length. We argue that a missing principle is making attention algorithms IO-aware, accounting for reads and writes between levels of GPU memory.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Tri Dao"
+      },
+      {
+        "name": "Daniel Y. Fu"
+      },
+      {
+        "name": "Stefano Ermon"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 3600,
+    "references": [
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p002"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2205.14135"
+  },
+  {
+    "paperId": "p050",
+    "title": "Self-Supervised Graph Transformer on Large-Scale Molecular Data",
+    "abstract": "Molecular property prediction is a fundamental problem in drug discovery. We propose a self-supervised graph transformer framework that combines the power of graph neural networks and transformers to learn molecular representations from large-scale unlabeled molecular data.",
+    "year": 2023,
+    "authors": [
+      {
+        "name": "Yu Rong"
+      },
+      {
+        "name": "Yatao Bian"
+      },
+      {
+        "name": "Tingyang Xu"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 1800,
+    "references": [
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p006"
+      },
+      {
+        "paperId": "p023"
+      },
+      {
+        "paperId": "p034"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2305.18365"
+  },
+  {
+    "paperId": "p051",
+    "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+    "abstract": "A replication study of BERT pretraining that carefully measures the impact of key hyperparameters and training data size, finding BERT was significantly undertrained.",
+    "year": 2019,
+    "authors": [
+      {
+        "name": "Yinhan Liu"
+      },
+      {
+        "name": "Myle Ott"
+      },
+      {
+        "name": "Naman Goyal"
+      },
+      {
+        "name": "Jingfei Du"
+      },
+      {
+        "name": "Mandar Joshi"
+      },
+      {
+        "name": "Danqi Chen"
+      },
+      {
+        "name": "Omer Levy"
+      },
+      {
+        "name": "Mike Lewis"
+      },
+      {
+        "name": "Luke Zettlemoyer"
+      },
+      {
+        "name": "Veselin Stoyanov"
+      }
+    ],
+    "venue": "arXiv",
+    "citationCount": 21000,
+    "references": [
+      {
+        "paperId": "p046"
+      },
+      {
+        "paperId": "p025"
+      },
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p011"
+      },
+      {
+        "paperId": "p032"
+      },
+      {
+        "paperId": "p026"
+      },
+      {
+        "paperId": "p030"
+      },
+      {
+        "paperId": "p022"
+      },
+      {
+        "paperId": "p052"
+      },
+      {
+        "paperId": "p058"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p051"
+  },
+  {
+    "paperId": "p052",
+    "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+    "abstract": "Replaces masked language modeling with a discriminative task that detects replaced tokens, training the encoder more sample-efficiently than BERT.",
+    "year": 2020,
+    "authors": [
+      {
+        "name": "Kevin Clark"
+      },
+      {
+        "name": "Minh-Thang Luong"
+      },
+      {
+        "name": "Quoc V. Le"
+      },
+      {
+        "name": "Christopher D. Manning"
+      }
+    ],
+    "venue": "ICLR",
+    "citationCount": 5300,
+    "references": [
+      {
+        "paperId": "p020"
+      },
+      {
+        "paperId": "p041"
+      },
+      {
+        "paperId": "p010"
+      },
+      {
+        "paperId": "p032"
+      },
+      {
+        "paperId": "p003"
+      },
+      {
+        "paperId": "p011"
+      },
+      {
+        "paperId": "p012"
+      },
+      {
+        "paperId": "p008"
+      },
+      {
+        "paperId": "p057"
+      },
+      {
+        "paperId": "p055"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p052"
+  },
+  {
+    "paperId": "p053",
+    "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+    "abstract": "A denoising autoencoder pretrained by corrupting text with an arbitrary noising function and learning to reconstruct it; effective for both NLG and NLU.",
+    "year": 2019,
+    "authors": [
+      {
+        "name": "Mike Lewis"
+      },
+      {
+        "name": "Yinhan Liu"
+      },
+      {
+        "name": "Naman Goyal"
+      },
+      {
+        "name": "Marjan Ghazvininejad"
+      },
+      {
+        "name": "Abdelrahman Mohamed"
+      },
+      {
+        "name": "Omer Levy"
+      },
+      {
+        "name": "Veselin Stoyanov"
+      },
+      {
+        "name": "Luke Zettlemoyer"
+      }
+    ],
+    "venue": "ACL",
+    "citationCount": 9100,
+    "references": [
+      {
+        "paperId": "p032"
+      },
+      {
+        "paperId": "p045"
+      },
+      {
+        "paperId": "p041"
+      },
+      {
+        "paperId": "p003"
+      },
+      {
+        "paperId": "p011"
+      },
+      {
+        "paperId": "p008"
+      },
+      {
+        "paperId": "p006"
+      },
+      {
+        "paperId": "p067"
+      },
+      {
+        "paperId": "p058"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p053"
+  },
+  {
+    "paperId": "p054",
+    "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+    "abstract": "Combines the bidirectionality of BERT with the autoregressive formulation of Transformer-XL via a permutation language modeling objective.",
+    "year": 2019,
+    "authors": [
+      {
+        "name": "Zhilin Yang"
+      },
+      {
+        "name": "Zihang Dai"
+      },
+      {
+        "name": "Yiming Yang"
+      },
+      {
+        "name": "Jaime Carbonell"
+      },
+      {
+        "name": "Ruslan Salakhutdinov"
+      },
+      {
+        "name": "Quoc V. Le"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 9000,
+    "references": [
+      {
+        "paperId": "p026"
+      },
+      {
+        "paperId": "p032"
+      },
+      {
+        "paperId": "p002"
+      },
+      {
+        "paperId": "p020"
+      },
+      {
+        "paperId": "p025"
+      },
+      {
+        "paperId": "p023"
+      },
+      {
+        "paperId": "p045"
+      },
+      {
+        "paperId": "p052"
+      },
+      {
+        "paperId": "p051"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p054"
+  },
+  {
+    "paperId": "p055",
+    "title": "PaLM: Scaling Language Modeling with Pathways",
+    "abstract": "A 540B-parameter dense decoder-only Transformer trained with the Pathways system, achieving breakthrough few-shot performance across hundreds of NLP tasks.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Aakanksha Chowdhery"
+      },
+      {
+        "name": "Sharan Narang"
+      },
+      {
+        "name": "Jacob Devlin"
+      },
+      {
+        "name": "Maarten Bosma"
+      },
+      {
+        "name": "Gaurav Mishra"
+      },
+      {
+        "name": "Adam Roberts"
+      },
+      {
+        "name": "Paul Barham"
+      },
+      {
+        "name": "Hyung Won Chung"
+      },
+      {
+        "name": "Charles Sutton"
+      },
+      {
+        "name": "Sebastian Gehrmann"
+      }
+    ],
+    "venue": "JMLR",
+    "citationCount": 3500,
+    "references": [
+      {
+        "paperId": "p032"
+      },
+      {
+        "paperId": "p026"
+      },
+      {
+        "paperId": "p046"
+      },
+      {
+        "paperId": "p049"
+      },
+      {
+        "paperId": "p017"
+      },
+      {
+        "paperId": "p004"
+      },
+      {
+        "paperId": "p069"
+      },
+      {
+        "paperId": "p065"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p055"
+  },
+  {
+    "paperId": "p056",
+    "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+    "abstract": "A general-purpose vision Transformer whose hierarchical feature maps and shifted-window self-attention give linear complexity to image size.",
+    "year": 2021,
+    "authors": [
+      {
+        "name": "Ze Liu"
+      },
+      {
+        "name": "Yutong Lin"
+      },
+      {
+        "name": "Yue Cao"
+      },
+      {
+        "name": "Han Hu"
+      },
+      {
+        "name": "Yixuan Wei"
+      },
+      {
+        "name": "Zheng Zhang"
+      },
+      {
+        "name": "Stephen Lin"
+      },
+      {
+        "name": "Baining Guo"
+      }
+    ],
+    "venue": "ICCV",
+    "citationCount": 14000,
+    "references": [
+      {
+        "paperId": "p009"
+      },
+      {
+        "paperId": "p043"
+      },
+      {
+        "paperId": "p018"
+      },
+      {
+        "paperId": "p049"
+      },
+      {
+        "paperId": "p046"
+      },
+      {
+        "paperId": "p054"
+      },
+      {
+        "paperId": "p060"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p056"
+  },
+  {
+    "paperId": "p057",
+    "title": "A ConvNet for the 2020s",
+    "abstract": "ConvNeXt modernizes a standard ResNet toward the design of a vision Transformer, recovering competitive accuracy with pure convolutions.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Zhuang Liu"
+      },
+      {
+        "name": "Hanzi Mao"
+      },
+      {
+        "name": "Chao-Yuan Wu"
+      },
+      {
+        "name": "Christoph Feichtenhofer"
+      },
+      {
+        "name": "Trevor Darrell"
+      },
+      {
+        "name": "Saining Xie"
+      }
+    ],
+    "venue": "CVPR",
+    "citationCount": 4200,
+    "references": [
+      {
+        "paperId": "p030"
+      },
+      {
+        "paperId": "p018"
+      },
+      {
+        "paperId": "p017"
+      },
+      {
+        "paperId": "p016"
+      },
+      {
+        "paperId": "p050"
+      },
+      {
+        "paperId": "p053"
+      },
+      {
+        "paperId": "p059"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p057"
+  },
+  {
+    "paperId": "p058",
+    "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+    "abstract": "SimCLR shows that contrastive self-supervised learning with strong augmentation and a learned projection head matches supervised ImageNet performance.",
+    "year": 2020,
+    "authors": [
+      {
+        "name": "Ting Chen"
+      },
+      {
+        "name": "Simon Kornblith"
+      },
+      {
+        "name": "Mohammad Norouzi"
+      },
+      {
+        "name": "Geoffrey Hinton"
+      }
+    ],
+    "venue": "ICML",
+    "citationCount": 18000,
+    "references": [
+      {
+        "paperId": "p043"
+      },
+      {
+        "paperId": "p009"
+      },
+      {
+        "paperId": "p016"
+      },
+      {
+        "paperId": "p030"
+      },
+      {
+        "paperId": "p044"
+      },
+      {
+        "paperId": "p011"
+      },
+      {
+        "paperId": "p038"
+      },
+      {
+        "paperId": "p053"
+      },
+      {
+        "paperId": "p061"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p058"
+  },
+  {
+    "paperId": "p059",
+    "title": "Momentum Contrast for Unsupervised Visual Representation Learning",
+    "abstract": "MoCo builds a dynamic dictionary with a queue and a momentum-updated encoder, enabling large and consistent negative sets for contrastive pretraining.",
+    "year": 2020,
+    "authors": [
+      {
+        "name": "Kaiming He"
+      },
+      {
+        "name": "Haoqi Fan"
+      },
+      {
+        "name": "Yuxin Wu"
+      },
+      {
+        "name": "Saining Xie"
+      },
+      {
+        "name": "Ross Girshick"
+      }
+    ],
+    "venue": "CVPR",
+    "citationCount": 12000,
+    "references": [
+      {
+        "paperId": "p009"
+      },
+      {
+        "paperId": "p044"
+      },
+      {
+        "paperId": "p017"
+      },
+      {
+        "paperId": "p018"
+      },
+      {
+        "paperId": "p043"
+      },
+      {
+        "paperId": "p016"
+      },
+      {
+        "paperId": "p040"
+      },
+      {
+        "paperId": "p023"
+      },
+      {
+        "paperId": "p063"
+      },
+      {
+        "paperId": "p065"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p059"
+  },
+  {
+    "paperId": "p060",
+    "title": "Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning",
+    "abstract": "BYOL learns visual representations without negative pairs by predicting a target network's projection from an online network and bootstrapping.",
+    "year": 2020,
+    "authors": [
+      {
+        "name": "Jean-Bastien Grill"
+      },
+      {
+        "name": "Florian Strub"
+      },
+      {
+        "name": "Florent Altché"
+      },
+      {
+        "name": "Corentin Tallec"
+      },
+      {
+        "name": "Pierre H. Richemond"
+      },
+      {
+        "name": "Elena Buchatskaya"
+      },
+      {
+        "name": "Carl Doersch"
+      },
+      {
+        "name": "Bernardo Avila Pires"
+      },
+      {
+        "name": "Zhaohan Daniel Guo"
+      },
+      {
+        "name": "Mohammad Gheshlaghi Azar"
+      },
+      {
+        "name": "Bilal Piot"
+      },
+      {
+        "name": "Koray Kavukcuoglu"
+      },
+      {
+        "name": "Rémi Munos"
+      },
+      {
+        "name": "Michal Valko"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 7800,
+    "references": [
+      {
+        "paperId": "p030"
+      },
+      {
+        "paperId": "p017"
+      },
+      {
+        "paperId": "p044"
+      },
+      {
+        "paperId": "p014"
+      },
+      {
+        "paperId": "p041"
+      },
+      {
+        "paperId": "p056"
+      },
+      {
+        "paperId": "p052"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p060"
+  },
+  {
+    "paperId": "p061",
+    "title": "GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models",
+    "abstract": "Compares CLIP-guided and classifier-free-guided diffusion for text-to-image, finding classifier-free guidance produces more photorealistic outputs.",
+    "year": 2021,
+    "authors": [
+      {
+        "name": "Alex Nichol"
+      },
+      {
+        "name": "Prafulla Dhariwal"
+      },
+      {
+        "name": "Aditya Ramesh"
+      },
+      {
+        "name": "Pranav Shyam"
+      },
+      {
+        "name": "Pamela Mishkin"
+      },
+      {
+        "name": "Bob McGrew"
+      },
+      {
+        "name": "Ilya Sutskever"
+      },
+      {
+        "name": "Mark Chen"
+      }
+    ],
+    "venue": "ICML",
+    "citationCount": 2900,
+    "references": [
+      {
+        "paperId": "p031"
+      },
+      {
+        "paperId": "p005"
+      },
+      {
+        "paperId": "p028"
+      },
+      {
+        "paperId": "p013"
+      },
+      {
+        "paperId": "p022"
+      },
+      {
+        "paperId": "p018"
+      },
+      {
+        "paperId": "p021"
+      },
+      {
+        "paperId": "p068"
+      },
+      {
+        "paperId": "p066"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p061"
+  },
+  {
+    "paperId": "p062",
+    "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+    "abstract": "ControlNet adds spatial conditioning (edges, depth, pose, …) to a frozen pretrained diffusion model via a trainable copy connected by zero-initialized layers.",
+    "year": 2023,
+    "authors": [
+      {
+        "name": "Lvmin Zhang"
+      },
+      {
+        "name": "Anyi Rao"
+      },
+      {
+        "name": "Maneesh Agrawala"
+      }
+    ],
+    "venue": "ICCV",
+    "citationCount": 4100,
+    "references": [
+      {
+        "paperId": "p021"
+      },
+      {
+        "paperId": "p013"
+      },
+      {
+        "paperId": "p004"
+      },
+      {
+        "paperId": "p022"
+      },
+      {
+        "paperId": "p047"
+      },
+      {
+        "paperId": "p019"
+      },
+      {
+        "paperId": "p052"
+      },
+      {
+        "paperId": "p054"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p062"
+  },
+  {
+    "paperId": "p063",
+    "title": "Elucidating the Design Space of Diffusion-Based Generative Models",
+    "abstract": "Reframes diffusion training and sampling in a unified design space and proposes EDM, a sampler and training recipe that materially advances state-of-the-art FID.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Tero Karras"
+      },
+      {
+        "name": "Miika Aittala"
+      },
+      {
+        "name": "Timo Aila"
+      },
+      {
+        "name": "Samuli Laine"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 2500,
+    "references": [
+      {
+        "paperId": "p005"
+      },
+      {
+        "paperId": "p047"
+      },
+      {
+        "paperId": "p013"
+      },
+      {
+        "paperId": "p039"
+      },
+      {
+        "paperId": "p004"
+      },
+      {
+        "paperId": "p027"
+      },
+      {
+        "paperId": "p040"
+      },
+      {
+        "paperId": "p050"
+      },
+      {
+        "paperId": "p064"
+      },
+      {
+        "paperId": "p057"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p063"
+  },
+  {
+    "paperId": "p064",
+    "title": "Scalable Diffusion Models with Transformers",
+    "abstract": "DiT replaces the U-Net backbone of latent diffusion with a Transformer, demonstrating that diffusion models scale with compute like other Transformers.",
+    "year": 2023,
+    "authors": [
+      {
+        "name": "William Peebles"
+      },
+      {
+        "name": "Saining Xie"
+      }
+    ],
+    "venue": "ICCV",
+    "citationCount": 1300,
+    "references": [
+      {
+        "paperId": "p039"
+      },
+      {
+        "paperId": "p022"
+      },
+      {
+        "paperId": "p021"
+      },
+      {
+        "paperId": "p028"
+      },
+      {
+        "paperId": "p005"
+      },
+      {
+        "paperId": "p047"
+      },
+      {
+        "paperId": "p031"
+      },
+      {
+        "paperId": "p043"
+      },
+      {
+        "paperId": "p059"
+      },
+      {
+        "paperId": "p062"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p064"
+  },
+  {
+    "paperId": "p065",
+    "title": "Imagen Video: High Definition Video Generation with Diffusion Models",
+    "abstract": "A cascade of video diffusion models that generate high-definition video from text, combining v-prediction training with progressive distillation for fast sampling.",
+    "year": 2022,
+    "authors": [
+      {
+        "name": "Jonathan Ho"
+      },
+      {
+        "name": "William Chan"
+      },
+      {
+        "name": "Chitwan Saharia"
+      },
+      {
+        "name": "Jay Whang"
+      },
+      {
+        "name": "Ruiqi Gao"
+      },
+      {
+        "name": "Alexey Gritsenko"
+      },
+      {
+        "name": "Diederik P. Kingma"
+      },
+      {
+        "name": "Ben Poole"
+      },
+      {
+        "name": "Mohammad Norouzi"
+      },
+      {
+        "name": "David J. Fleet"
+      },
+      {
+        "name": "Tim Salimans"
+      }
+    ],
+    "venue": "arXiv",
+    "citationCount": 900,
+    "references": [
+      {
+        "paperId": "p031"
+      },
+      {
+        "paperId": "p047"
+      },
+      {
+        "paperId": "p027"
+      },
+      {
+        "paperId": "p004"
+      },
+      {
+        "paperId": "p013"
+      },
+      {
+        "paperId": "p044"
+      },
+      {
+        "paperId": "p009"
+      },
+      {
+        "paperId": "p067"
+      },
+      {
+        "paperId": "p056"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p065"
+  },
+  {
+    "paperId": "p066",
+    "title": "Do Transformers Really Perform Bad for Graph Representation?",
+    "abstract": "Graphormer adapts the Transformer to graphs through centrality, spatial, and edge encodings, winning the OGB-LSC quantum chemistry track.",
+    "year": 2021,
+    "authors": [
+      {
+        "name": "Chengxuan Ying"
+      },
+      {
+        "name": "Tianle Cai"
+      },
+      {
+        "name": "Shengjie Luo"
+      },
+      {
+        "name": "Shuxin Zheng"
+      },
+      {
+        "name": "Guolin Ke"
+      },
+      {
+        "name": "Di He"
+      },
+      {
+        "name": "Yanming Shen"
+      },
+      {
+        "name": "Tie-Yan Liu"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 1700,
+    "references": [
+      {
+        "paperId": "p048"
+      },
+      {
+        "paperId": "p024"
+      },
+      {
+        "paperId": "p015"
+      },
+      {
+        "paperId": "p038"
+      },
+      {
+        "paperId": "p006"
+      },
+      {
+        "paperId": "p050"
+      },
+      {
+        "paperId": "p020"
+      },
+      {
+        "paperId": "p009"
+      },
+      {
+        "paperId": "p057"
+      },
+      {
+        "paperId": "p052"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p066"
+  },
+  {
+    "paperId": "p067",
+    "title": "Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+    "abstract": "PinSage scales GCNs to billions of nodes via random walks for neighborhood sampling and on-the-fly convolutions, deployed at Pinterest.",
+    "year": 2018,
+    "authors": [
+      {
+        "name": "Rex Ying"
+      },
+      {
+        "name": "Ruining He"
+      },
+      {
+        "name": "Kaifeng Chen"
+      },
+      {
+        "name": "Pong Eksombatchai"
+      },
+      {
+        "name": "William L. Hamilton"
+      },
+      {
+        "name": "Jure Leskovec"
+      }
+    ],
+    "venue": "KDD",
+    "citationCount": 3800,
+    "references": [
+      {
+        "paperId": "p024"
+      },
+      {
+        "paperId": "p014"
+      },
+      {
+        "paperId": "p050"
+      },
+      {
+        "paperId": "p029"
+      },
+      {
+        "paperId": "p004"
+      },
+      {
+        "paperId": "p007"
+      },
+      {
+        "paperId": "p056"
+      },
+      {
+        "paperId": "p070"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p067"
+  },
+  {
+    "paperId": "p068",
+    "title": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+    "abstract": "AlphaGo combines value and policy networks with Monte Carlo Tree Search, defeating top human professionals at the game of Go.",
+    "year": 2016,
+    "authors": [
+      {
+        "name": "David Silver"
+      },
+      {
+        "name": "Aja Huang"
+      },
+      {
+        "name": "Chris J. Maddison"
+      },
+      {
+        "name": "Arthur Guez"
+      },
+      {
+        "name": "Laurent Sifre"
+      },
+      {
+        "name": "George van den Driessche"
+      },
+      {
+        "name": "Julian Schrittwieser"
+      },
+      {
+        "name": "Ioannis Antonoglou"
+      },
+      {
+        "name": "Veda Panneershelvam"
+      },
+      {
+        "name": "Marc Lanctot"
+      }
+    ],
+    "venue": "Nature",
+    "citationCount": 18000,
+    "references": [
+      {
+        "paperId": "p042"
+      },
+      {
+        "paperId": "p008"
+      },
+      {
+        "paperId": "p016"
+      },
+      {
+        "paperId": "p039"
+      },
+      {
+        "paperId": "p044"
+      },
+      {
+        "paperId": "p061"
+      },
+      {
+        "paperId": "p067"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p068"
+  },
+  {
+    "paperId": "p069",
+    "title": "Proximal Policy Optimization Algorithms",
+    "abstract": "PPO is a family of policy-gradient methods that uses a clipped surrogate objective to balance trust-region stability with the simplicity of first-order updates.",
+    "year": 2017,
+    "authors": [
+      {
+        "name": "John Schulman"
+      },
+      {
+        "name": "Filip Wolski"
+      },
+      {
+        "name": "Prafulla Dhariwal"
+      },
+      {
+        "name": "Alec Radford"
+      },
+      {
+        "name": "Oleg Klimov"
+      }
+    ],
+    "venue": "arXiv",
+    "citationCount": 18500,
+    "references": [
+      {
+        "paperId": "p008"
+      },
+      {
+        "paperId": "p042"
+      },
+      {
+        "paperId": "p016"
+      },
+      {
+        "paperId": "p041"
+      },
+      {
+        "paperId": "p039"
+      },
+      {
+        "paperId": "p059"
+      },
+      {
+        "paperId": "p054"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p069"
+  },
+  {
+    "paperId": "p070",
+    "title": "Distributed Representations of Words and Phrases and their Compositionality",
+    "abstract": "Skip-gram with negative sampling and the subsampling of frequent words yield word vectors that capture syntactic and semantic regularities.",
+    "year": 2013,
+    "authors": [
+      {
+        "name": "Tomas Mikolov"
+      },
+      {
+        "name": "Ilya Sutskever"
+      },
+      {
+        "name": "Kai Chen"
+      },
+      {
+        "name": "Greg Corrado"
+      },
+      {
+        "name": "Jeffrey Dean"
+      }
+    ],
+    "venue": "NeurIPS",
+    "citationCount": 41000,
+    "references": [
+      {
+        "paperId": "p016"
+      },
+      {
+        "paperId": "p001"
+      },
+      {
+        "paperId": "p011"
+      },
+      {
+        "paperId": "p009"
+      },
+      {
+        "paperId": "p004"
+      },
+      {
+        "paperId": "p065"
+      },
+      {
+        "paperId": "p056"
+      }
+    ],
+    "url": "https://arxiv.org/abs/p070"
+  }
+]
